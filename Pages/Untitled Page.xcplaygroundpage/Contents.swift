@@ -233,3 +233,19 @@ class namedShape {
         return "A shape with \(numberOfSides) sides."
     }
 }
+
+//Practice: Make another subclass of NamedShape called Circle that takes a radius and a name as arguments to its initializer. Implement an area() and a simpleDescription() method on the Circle class.
+
+
+class Circle {
+    var radius: Double
+    
+    init(radius: Double, name: String) {
+        self.radius = radius
+    }
+    
+    func area() -> Double {
+        pass
+    }
+}
+//Callback is a mechanism
